@@ -1,3 +1,5 @@
+
+-- ****Q3*****
 merge :: Ord a => [a]->[a]->[a]
 
 merge [] [] = []
@@ -30,3 +32,4 @@ merge (x:(y:xs)) (a:(b:as))
   | x<a = x:merge (y:xs) (a:(b:as))
   | otherwise = a:merge (x:(y:xs)) (b:as)
 
+-- ****Q3*****

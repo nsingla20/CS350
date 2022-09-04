@@ -1,2 +1,6 @@
-numbers=[1,2..]
-answer=[x | x<-numbers, even x||mod x 3 == 0||mod x 5==0]
+
+-- ****Q6a*****
+
+q6a=[x | x<-[1,2..], even x||mod x 3 == 0||mod x 5==0]
+
+-- ****Q6a*****
